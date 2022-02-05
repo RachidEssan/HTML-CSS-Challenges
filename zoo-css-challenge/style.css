@@ -87,7 +87,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -97,6 +97,7 @@ footer {
 }
 
 #badge:hover {
+  transition-duration: 1s ;
   background-color: yellow;
 }
 
@@ -221,6 +222,6 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display:inline-block;
 }
 
