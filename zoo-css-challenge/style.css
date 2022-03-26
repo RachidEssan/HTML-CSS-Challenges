@@ -29,8 +29,8 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
-  background-color: #6320ee;
+#logo {
+  border: none;
 }
 
 h1,
@@ -57,13 +57,18 @@ h3 {
 
 button {
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
   padding: 10px 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
-  color: #fff;
+  color: #ffff;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #a797da;
 }
 
 footer {
@@ -98,7 +103,7 @@ footer {
 
 #badge:hover {
   transition-duration: 1s ;
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
 }
 
 #badge p {
@@ -108,16 +113,16 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #E8E9F3;
 }
 
 .image-container img:last-of-type {
-  border: 5px solid #ff7f11
+  border: 5px solid #CECECE
 }
 
 .image-container img:first-of-type {
   vertical-align: top;
-  border: 5px solid #f0e100;
+  border: 5px solid #A6A6A8;
 }
 
 .tigers {
@@ -139,7 +144,7 @@ footer {
 }
 
 .giraffe p:first-of-type {
-  font-size: small;
+  font-size: large;
 }
 
 .news {
@@ -182,15 +187,6 @@ footer {
   padding: 100px 5%;
 }
 
-.education button, .membership button {
-  font-size: large;
-  border-radius: 5%;
-}
-
-.education button:hover, .membership button:hover {
-  background-color: #BEEE62;
-}
-
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
@@ -223,5 +219,10 @@ footer {
 
 .programs .card {
   display:inline-block;
+  padding: 10px;
+}
+
+.programs h4 {
+  margin-top: 0;
 }
 
